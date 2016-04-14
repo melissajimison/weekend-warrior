@@ -3,6 +3,9 @@ require 'minitest/pride'
 require 'minitest/autorun'
 require_relative 'hello_world'
 
+## make assertions to make this thigs TRUE//pass
+#Do one test at the time
+
 class HelloWorldTest < Minitest::Test
   def test_no_name
     assert_equal 'Hello, World!', hello_world, <<-MSG
