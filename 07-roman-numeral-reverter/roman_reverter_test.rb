@@ -9,57 +9,57 @@ class RomanReverterTest < Minitest::Test
   end
 
   def test_revert_V
-    skip
+skip
     assert_equal 5, Roman.reverter("V")
   end
 
   def test_revert_X
-    skip
+skip
     assert_equal 10, Roman.reverter("X")
   end
 
   def test_revert_L
-    skip
+skip
     assert_equal 50, Roman.reverter("L")
   end
 
   def test_revert_C
-    skip
+skip
     assert_equal 100, Roman.reverter("C")
   end
 
   def test_revert_D
-    skip
+skip
     assert_equal 500, Roman.reverter("D")
   end
 
   def test_revert_M
-    skip
+skip
     assert_equal 1000, Roman.reverter("M")
   end
 
   def test_symbol_pair
-    skip
+skip
     assert_equal 2, Roman.reverter("II")
   end
 
   def test_symbol_string
-    skip
+skip
     assert_equal 30, Roman.reverter("XXX")
   end
 
   def test_mixed_symbol_string
-    skip
+skip
     assert_equal 17, Roman.reverter("XVII")
   end
 
   def test_two_hundred_and_twenty_two
-    skip
+skip
     assert_equal 222, Roman.reverter("CCXXII")
   end
 
   def test_first_subtracted_value
-    skip
+
     assert_equal 4, Roman.reverter("IV")
   end
 
@@ -84,7 +84,7 @@ class RomanReverterTest < Minitest::Test
   end
 
   def test_four_thousand_nine_hundred_and_ninety_nine
-    skip
+skip
     assert_equal 4999, Roman.reverter("MMMMCMXCIX")
   end
 end
